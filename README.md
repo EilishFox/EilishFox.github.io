@@ -1,60 +1,79 @@
-# Personal Web
+# bulma-clean-theme
 
-Personal Web is a simple Hugo template to build a personal website including portfolio and blog sections. It will mainly suit freelancers who want to showcase their work.
+[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 
-## [Demo website](https://personal-web-example.netlify.com/post/)
+This is a clean and simple Jekyll Theme built with the [Bulma](https://bulma.io/) framework, providing a modern-looking site to start with. 
+
+The theme uses [Alpine.js](https://github.com/alpinejs/alpine) for its interactive components, such as mobile navbar and notifications.
+
+## Contents
+
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [Upgrading to v1](#upgrading-to-v1)
+* [Contributing](#contributing)
+* [Development](#development)
+* [Licence](#licence)
+
 
 ## Installation
 
-Inside the folder of your Hugo site run:
+Add this line to your Jekyll site's `Gemfile`:
 
-```bash
-cd themes
-git clone https://github.com/bjacquemet/personal-web
+```ruby
+gem "bulma-clean-theme"
 ```
 
-or if you'd rather use submodules
+And add this line to your Jekyll site's `_config.yml`:
 
-```bash
-cd themes
-git submodule add https://github.com/bjacquemet/personal-web.git
+```yaml
+theme: bulma-clean-theme
 ```
 
-For more information read the official [setup guide](https://gohugo.io/getting-started/installing/) of Hugo.
+And then execute:
 
-## Screenshots
+    $ bundle
 
-![Home](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/screenshot.png)
-![Portfolio](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/tn.png)
-![Article](https://raw.githubusercontent.com/bjacquemet/personal-web/master/images/post.png)
+Or install it yourself as:
 
+    $ gem install bulma-clean-theme
 
-## Start building your website
-You will find help in the `exampleSite` folder, or you can browse resources on the [demo site](https://personal-web-example.netlify.com/post/)
+### GitHub pages
 
-## Add a SVG icon
-You can create and add your own SVG icons.
+### v1.0
 
-First, override the `svg.html` file by duplicating the theme file into your root directory (see https://orcid.org/trademark-and-id-display-guidelines).
+To deploy to GitHub pages using v1.x you will need to use GitHub Actions. Please see the [upgrade guide](https://www.csrhymes.com/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
 
-If you have Sketch, you can use the `svgs.sketch` file to add new SVGs. Export it and add it to the `svg.html` file. Note that you can  optimize it using the `svgo` tool.
+### v0.x
 
-## Start the server
+If you are deploying to GitHub pages using their default build process, then you can install v0.x of the [GitHub Pages gem](https://github.com/github/pages-gem) and use `remote_theme` instead of `theme` in your `_config.yml`. 
 
-In order to see your site in action, run Hugo's built-in local server from your website root directory.
+**Note that the GitHub Pages gem requires Jekyll version 3.9 and version 0.x of Bulma Clean Theme**
 
-```bash
-hugo server
+```yaml
+# With GitHub Pages Gem
+remote_theme: chrisrhymes/bulma-clean-theme:v0.14.0
 ```
 
-Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+## Documentation
 
+Check out the demo site for the [Documentation](https://www.csrhymes.com/bulma-clean-theme/docs/)
+
+## Upgrading to v1
+
+There are several breaking changes for v1. Please read the [upgrade guide](https://www.csrhymes.com/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
 
 ## Contributing
 
-Did you found a bug or got an idea for a new feature? Feel free to use the [issue tracker](https://github.com/bjacquemet/personal-web/issues) to let me know. Or make directly a [pull request](https://github.com/bjacquemet/personal-web/pulls).
+Bug reports and pull requests are welcome on GitHub at https://github.com/chrisrhymes/bulma-clean-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 ## License
 
-This theme is released under the Unlincense License. For more information read the [License](https://github.com/bjacquemet/personal-web/blob/master/LICENSE).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
