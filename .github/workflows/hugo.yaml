@@ -58,8 +58,6 @@ jobs:
           TZ: America/New_York
         run: |
           hugo new \
-            --gc \
-            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
