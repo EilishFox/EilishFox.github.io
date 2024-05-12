@@ -57,7 +57,7 @@ jobs:
           HUGO_ENV: production
           TZ: America/New_York
         run: |
-          hugo \
+          hugo new \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
