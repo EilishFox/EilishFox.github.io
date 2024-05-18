@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = false
+	# this ^^^ is the flag/variable/property that needs to be set so that
+	# Git will notice file name changes such as capitalization.
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/EilishFox/EilishFox.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[lfs]
+	repositoryformatversion = 0
