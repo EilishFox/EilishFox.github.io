@@ -10,7 +10,14 @@ body {
     transition: all 0.25s ease;
 }
 
+.navbar.is-black {
+    background-color: #f4a1af;
+    color: #fff;
+}
 
+.has-background-black {
+    background-color: #f4a1af !important;
+}
 
 /* width */
 ::-webkit-scrollbar {

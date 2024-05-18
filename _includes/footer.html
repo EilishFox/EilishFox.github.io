@@ -1,10 +1,10 @@
 <footer id="footer">
     <!--Footer Button-->
-    <div class="container has-text-centered has-background-grey-darker" id="backtotop">
+    <div class="container has-text-centered has-background-grey-light" id="backtotop">
         <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a>
     </div>
     <!--Footer Main Section-->
-    <div class="has-background-grey-darker">
+    <div class="has-background-grey-light">
         <div class="container columns">
             <!--Name Section-->
             <div class="column has-text-left-desktop has-text-centered-mobile">
@@ -16,7 +16,7 @@
                             </figure>
                         </div>
                         <div class="column is-marginless">
-                            <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
+                            <h5 class="has-text-white">{{site.author-name}}</h5>
                             <div class="content has-text-grey">
                                 <p>{{site.author-about | truncate: 75 }}</p>
                             </div>
@@ -36,7 +36,10 @@
                 {% endunless %}
                 {% endfor %}
                 <li>
-                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
+                    <a target="_blank" href="https://public.tableau.com/app/profile/eilish.fox/vizzes">Tableau</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.kaggle.com/eilishfox">Kaggle</a>
                 </li>
             </div>
 
