@@ -3,7 +3,7 @@
   link: /blog/boxes
   description: I made custom boxes to hold some of my art and craft supplies. 
 - name: Flower Laptop
-  link: /flower-laptop
+  link: /blog/flower-laptop
   image: /assets/images/Flower%20Laptop/Flower%20Laptop%20Main.jpg
   description: An old laptop covered with many fake flowers.
 - name: Stairs for My Dog
@@ -11,6 +11,6 @@
   image: /assets/images/Stairs/MaebhStandingAtWindow.jpg
   description: My dog wanted to look out the window but couldn't reach. So, I made her some.
 - name: Tiny House
-  link: /tiny-house
+  link: /blog/tiny-house
   image: /assets/images/Tiny%20House/Front.jpg
   description: Making a tiny house out of cardboard.
