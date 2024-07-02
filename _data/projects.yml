@@ -14,3 +14,15 @@
   link: /blog/tiny-house
   image: /assets/images/Tiny%20House/Front.jpg
   description: Making a tiny house out of cardboard.
+- name: Making This Website
+  link: /blog/
+  image: /assets/images/Website/what-a-theme-home.png
+  description:A little of how I made this website.
+- name: Dinosaur Drawings
+  link: /blog/dinosaur-drawings
+  image: /assets/images/Dinos/Spumonitops-close-up.png
+  description: I drew two unique dinosaurs.
+- name: Rapid Sketching Exercise
+  link: /blog/rapid-sketching-exercise
+  image: /assets/images/Rapid Sketching/c8-keep-dogs-dry.jpg
+  description: My first go at rapid sketching.
