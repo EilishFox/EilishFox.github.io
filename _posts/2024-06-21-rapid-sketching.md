@@ -1,7 +1,7 @@
 ---
 title: Rapid Sketching Exercise
 layout: post
-post-image: /assets/images/Rapid Sketching/c8-project.jpg
+post-image: /assets/images/Rapid-Sketching/c8-project.jpg
 description: My first go at rapid sketching.
 tags:
 - drawing
@@ -17,4 +17,4 @@ I remembered when I wanted a better way to keep my dog from getting so wet when 
 
 So, I thought I’d do my rapid sketching with the question of “How might we keep dogs dry in the rain?” And this is my result of the exercise.
 
-<img src="/assets/images/Rapid Sketching/c8-keep-dogs-dry.jpg" style="width:26em; height:30em;"/>
+<img src="/assets/images/Rapid-Sketching/c8-keep-dogs-dry.jpg" style="width:27em; height:36em;"/>
